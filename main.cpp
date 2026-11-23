@@ -38,8 +38,17 @@ int main(){
     std::string word_select = palavras[id_word];
     printf("PALAVRA SELECIONADA: %s\n", word_select.c_str());
     // LOOP DE JOGO
-    // entrada do usuario
-    // verificar se acertou alguma letra
-    // finalizar caso atinja 5 tentativas
+    int n_tentativas =  5;
+    while (n_tentativas>0)
+    {
+        // entrada do usuario
+        char palavra_digitada[5];
+        printf("> ");
+        scanf("%s'[\n]", &palavra_digitada);
+        // printf("PALAVRA DIGITADA: %s\n",palavra_digitada);
+        // verificar se acertou alguma letra
+        // finalizar caso atinja 5 tentativas
+    }
+    
     return 0;
 }
