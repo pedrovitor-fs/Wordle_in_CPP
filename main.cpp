@@ -87,6 +87,6 @@ int main()
         // finalizar caso atinja 5 tentativas
         n_tentativas--;
     }
-    printf("apalavra selecionada foi : %s\n", word_select);
+    printf("apalavra selecionada foi : %s\n", word_select.c_str());
     return 0;
 }
